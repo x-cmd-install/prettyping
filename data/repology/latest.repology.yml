@@ -1,0 +1,725 @@
+- repo: pardus_21
+  subrepo: main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - misc
+- repo: arch
+  subrepo: extra
+  srcname: prettyping
+  binname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1:1.1.0-1
+  status: newest
+  summary: A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
+  licenses:
+    - MIT
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: newest
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: newest
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: newest
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - misc
+- repo: epel_6
+  srcname: prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-2.el6
+  status: outdated
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: epel_7
+  srcname: prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.el7
+  status: outdated
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: exherbo
+  subrepo: platypus
+  srcname: app-misc/prettyping
+  visiblename: app-misc/prettyping
+  version: 1.0.1
+  origversion: null
+  status: outdated
+  summary: Nice and shiny wrapper around ping
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - app-misc
+- repo: fedora_39
+  subrepo: release
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-12.fc39
+  status: outdated
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-14.fc40
+  status: outdated
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-1.fc41
+  status: newest
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-15.fc41
+  status: legacy
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-1.fc42
+  status: newest
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-16.fc42
+  status: legacy
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-2.fc43
+  status: newest
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-3.fc44
+  status: newest
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_rawhide
+  subrepo: development
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-4.fc45
+  status: newest
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: gentoo
+  srcname: net-analyzer/prettyping
+  visiblename: net-analyzer/prettyping
+  version: 1.0.1
+  origversion: null
+  status: outdated
+  summary: Ping wrapper that produces coloured, easily readable output
+  maintainers:
+    - maintainer-needed@gentoo.org
+  licenses:
+    - MIT
+  categories:
+    - net-analyzer
+- repo: parabola
+  subrepo: extra
+  srcname: prettyping
+  binname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1:1.1.0-1
+  status: newest
+  summary: A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
+  licenses:
+    - MIT
+- repo: homebrew
+  srcname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: Wrapper to colorize and simplify ping's output
+- repo: kali_rolling
+  subrepo: main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: newest
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - misc
+- repo: liguros_stable
+  srcname: net-analyzer/prettyping
+  visiblename: net-analyzer/prettyping
+  version: 1.0.1
+  origversion: null
+  status: outdated
+  summary: Ping wrapper that produces coloured, easily readable output
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - MIT
+  categories:
+    - net-analyzer
+- repo: liguros_develop
+  srcname: net-analyzer/prettyping
+  visiblename: net-analyzer/prettyping
+  version: 1.0.1
+  origversion: null
+  status: outdated
+  summary: Ping wrapper that produces coloured, easily readable output
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - MIT
+  categories:
+    - net-analyzer
+- repo: macports
+  srcname: net/prettyping
+  binname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: prettier, more colorful, more compact, easier to read ping output
+  maintainers:
+    - nomaintainer@macports.org
+  licenses:
+    - MIT
+  categories:
+    - net
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: prettyping
+  binname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1:1.1.0-1
+  status: newest
+  summary: A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: prettyping
+  binname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1:1.1.0-1
+  status: newest
+  summary: A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: prettyping
+  binname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1:1.1.0-1
+  status: newest
+  summary: A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: null
+  status: outdated
+  summary: A wrapper around the standard ping tool with the objective of making the output prettier, more colorful, more compact, and easier to read
+  maintainers:
+    - kenny@machinesung.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: null
+  status: outdated
+  summary: Wrapper around the standard ping tool with the objective of making the output prettier, more colorful, more compact, and easier to read
+  maintainers:
+    - kenny@machinesung.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: null
+  status: outdated
+  summary: Wrapper around the standard ping tool with the objective of making the output prettier, more colorful, more compact, and easier to read
+  maintainers:
+    - kenny@machinesung.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: Wrapper around the standard ping tool with the objective of making the output prettier, more colorful, more compact, and easier to read
+  maintainers:
+    - kenny@machinesung.com
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
+  srcname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: Wrapper around the standard ping tool with the objective of making the output prettier, more colorful, more compact, and easier to read
+  maintainers:
+    - kenny@machinesung.com
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: Wrapper around the standard ping tool with the objective of making the output prettier, more colorful, more compact, and easier to read
+  maintainers:
+    - kenny@machinesung.com
+  licenses:
+    - MIT
+- repo: pkgsrc_2026_1
+  srcname: net/prettyping
+  binname: prettyping
+  visiblename: net/prettyping
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: Wrapper to colorize and simplify ping's output
+  maintainers:
+    - schmonz@netbsd.org
+  categories:
+    - net
+- repo: pkgsrc_2026_2
+  srcname: net/prettyping
+  binname: prettyping
+  visiblename: net/prettyping
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: Wrapper to colorize and simplify ping's output
+  maintainers:
+    - schmonz@netbsd.org
+  categories:
+    - net
+- repo: pkgsrc_current
+  srcname: net/prettyping
+  binname: prettyping
+  visiblename: net/prettyping
+  version: 1.1.0
+  origversion: null
+  status: newest
+  summary: Wrapper to colorize and simplify ping's output
+  maintainers:
+    - schmonz@netbsd.org
+  categories:
+    - net
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - net
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - net
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: newest
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - misc
+- repo: slackbuilds
+  srcname: network/prettyping
+  visiblename: network/prettyping
+  version: 1.0.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - thibaut.notteboom@gmail.com
+  categories:
+    - network
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - universe/misc
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1build1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: newest
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - universe/misc
