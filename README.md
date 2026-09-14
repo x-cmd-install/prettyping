@@ -35,38 +35,22 @@ Total: **854** lines of code across **3** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,286 · **Forks**: 79 · **Open issues**: 26 · **Contributors**: 8
+- **Stars**: 1,286 · **Forks**: 79 · **Open issues**: 27 · **Contributors**: 8
 
 ## Totals (cumulative)
 
-- **Releases**: 3 · **Merged PRs**: 7 · **Open PRs**: 12 · **Closed issues**: 7 · **Open issues**: 19 · **Commits**: 88
+- **Releases**: 3 · **Merged PRs**: 7 · **Open PRs**: 12 · **Closed issues**: 7 · **Open issues**: 20 · **Commits**: 88
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 3 | 0 | 1 | 0 |
-| 360d | 2025-09-18 | 0 | 0 | 3 | 0 | 2 | 0 |
-| last720d | 2024-09-23 | 1 | 1 | 9 | 0 | 3 | 6 |
-
-## Distribution status
-
-Reported by **58** distros on [repology.org](https://repology.org/project/prettyping). **24** are ✅ on the latest upstream release, **32** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.1.0` | ✅ latest |
-| Debian 14 | `1.1.0` | ✅ latest |
-| Debian 13 | `1.0.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.0.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.0.1` | ⚠️ outdated |
-| Arch | `1.1.0` | ✅ latest |
-| Homebrew | `1.1.0` | ✅ latest |
-| Fedora rawhide | `1.1.0` | ✅ latest |
-| Nix unstable | `1.1.0` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 3 | 0 | 2 | 0 |
+| 360d | 2025-09-19 | 0 | 0 | 3 | 0 | 3 | 0 |
+| last720d | 2024-09-24 | 1 | 1 | 9 | 0 | 4 | 6 |
 
 ## Improve this data
 
@@ -77,4 +61,4 @@ Install metadata for prettyping lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:46:14Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:56:35Z._
