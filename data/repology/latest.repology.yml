@@ -1,25 +1,29 @@
-- repo: manjaro_testing
-  subrepo: extra
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: prettyping
-  binname: prettyping
-  visiblename: prettyping
-  version: 1.0.1
-  origversion: 1:1.0.1-3
-  status: outdated
-  summary: A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: prettyping
-  binname: prettyping
+  binnames:
+    - prettyping
   visiblename: prettyping
   version: 1.1.0
-  origversion: 1:1.1.0-1
+  origversion: 1.1.0-1
   status: newest
-  summary: A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
-  licenses:
-    - MIT
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - misc
 - repo: arch
   subrepo: extra
   srcname: prettyping
@@ -44,17 +48,6 @@
     - viflythink@gmail.com
   categories:
     - misc
-- repo: nix_stable_24_05
-  srcname: prettyping
-  visiblename: prettyping
-  version: 1.0.1
-  origversion: null
-  status: outdated
-  summary: A wrapper around the standard ping tool with the objective of making the output prettier, more colorful, more compact, and easier to read
-  maintainers:
-    - kenny@machinesung.com
-  licenses:
-    - MIT
 - repo: debian_12
   subrepo: bookworm/main
   srcname: prettyping
@@ -120,32 +113,6 @@
     - viflythink@gmail.com
   categories:
     - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: prettyping
-  binnames:
-    - prettyping
-  visiblename: prettyping
-  version: 1.0.1
-  origversion: 1.0.1-1.1
-  status: outdated
-  maintainers:
-    - viflythink@gmail.com
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: prettyping
-  binnames:
-    - prettyping
-  visiblename: prettyping
-  version: 1.1.0
-  origversion: 1.1.0-1
-  status: newest
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - misc
 - repo: epel_6
   srcname: prettyping
   visiblename: prettyping
@@ -209,20 +176,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: prettyping
-  binnames:
-    - prettyping
-  visiblename: prettyping
-  version: 1.0.1
-  origversion: 1.0.1-15.fc41
-  status: legacy
-  summary: Compact, colorful ping tool for your terminal
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: prettyping
   binnames:
@@ -231,6 +184,20 @@
   version: 1.1.0
   origversion: 1.1.0-1.fc41
   status: newest
+  summary: Compact, colorful ping tool for your terminal
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-15.fc41
+  status: legacy
   summary: Compact, colorful ping tool for your terminal
   licenses:
     - MIT
@@ -384,10 +351,43 @@
   srcname: prettyping
   binname: prettyping
   visiblename: prettyping
-  version: 1.0.1
-  origversion: 1:1.0.1-3
-  status: outdated
+  version: 1.1.0
+  origversion: 1:1.1.0-1
+  status: newest
   summary: A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: prettyping
+  binname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1:1.1.0-1
+  status: newest
+  summary: A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: prettyping
+  binname: prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1:1.1.0-1
+  status: newest
+  summary: A ping wrapper making the output prettier, more colorful, more compact, and easier to read.
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: null
+  status: outdated
+  summary: A wrapper around the standard ping tool with the objective of making the output prettier, more colorful, more compact, and easier to read
+  maintainers:
+    - kenny@machinesung.com
   licenses:
     - MIT
 - repo: nix_stable_24_11
@@ -423,6 +423,19 @@
     - kenny@machinesung.com
   licenses:
     - MIT
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - universe/misc
 - repo: nix_stable_26_05
   srcname: prettyping
   visiblename: prettyping
@@ -470,7 +483,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: prettyping
   binnames:
     - prettyping
@@ -483,7 +496,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: prettyping
   binnames:
     - prettyping
@@ -632,19 +645,6 @@
     - viflythink@gmail.com
   categories:
     - universe/misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: prettyping
-  binnames:
-    - prettyping
-  visiblename: prettyping
-  version: 1.0.1
-  origversion: 1.0.1-1.1
-  status: outdated
-  maintainers:
-    - viflythink@gmail.com
-  categories:
-    - universe/misc
 - repo: ubuntu_25_04
   subrepo: plucky/universe
   srcname: prettyping
@@ -686,6 +686,19 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: newest
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: prettyping
   binnames:
     - prettyping
