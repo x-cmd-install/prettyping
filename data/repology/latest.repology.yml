@@ -1,18 +1,5 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: prettyping
-  binnames:
-    - prettyping
-  visiblename: prettyping
-  version: 1.1.0
-  origversion: 1.1.0-1
-  status: newest
-  maintainers:
-    - packages@qa.debian.org
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: ubuntu_24_04
+  subrepo: noble/universe
   srcname: prettyping
   binnames:
     - prettyping
@@ -23,7 +10,7 @@
   maintainers:
     - viflythink@gmail.com
   categories:
-    - misc
+    - universe/misc
 - repo: arch
   subrepo: extra
   srcname: prettyping
@@ -113,17 +100,32 @@
     - viflythink@gmail.com
   categories:
     - misc
-- repo: epel_6
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: prettyping
+  binnames:
+    - prettyping
   visiblename: prettyping
   version: 1.0.1
-  origversion: 1.0.1-2.el6
+  origversion: 1.0.1-1.1
   status: outdated
-  summary: Compact, colorful ping tool for your terminal
-  licenses:
-    - MIT
+  maintainers:
+    - viflythink@gmail.com
   categories:
-    - Unspecified
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: newest
+  maintainers:
+    - packages@qa.debian.org
+  categories:
+    - misc
 - repo: epel_7
   srcname: prettyping
   visiblename: prettyping
@@ -273,6 +275,19 @@
     - MIT
   categories:
     - Unspecified
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: prettyping
+  binnames:
+    - prettyping
+  visiblename: prettyping
+  version: 1.0.1
+  origversion: 1.0.1-1.1
+  status: outdated
+  maintainers:
+    - viflythink@gmail.com
+  categories:
+    - universe/misc
 - repo: gentoo
   srcname: net-analyzer/prettyping
   visiblename: net-analyzer/prettyping
@@ -423,8 +438,8 @@
     - kenny@machinesung.com
   licenses:
     - MIT
-- repo: ubuntu_24_04
-  subrepo: noble/universe
+- repo: ubuntu_25_10
+  subrepo: questing/universe
   srcname: prettyping
   binnames:
     - prettyping
@@ -634,32 +649,6 @@
     - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy/universe
-  srcname: prettyping
-  binnames:
-    - prettyping
-  visiblename: prettyping
-  version: 1.0.1
-  origversion: 1.0.1-1.1
-  status: outdated
-  maintainers:
-    - viflythink@gmail.com
-  categories:
-    - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: prettyping
-  binnames:
-    - prettyping
-  visiblename: prettyping
-  version: 1.0.1
-  origversion: 1.0.1-1.1
-  status: outdated
-  maintainers:
-    - viflythink@gmail.com
-  categories:
-    - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
   srcname: prettyping
   binnames:
     - prettyping
